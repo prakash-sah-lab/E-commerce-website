@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner{
+    width: 100;
+    height: 200vh;
+    background-color: white;
+
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: armenian;
+    display: inline-block;
+    margin: 0 25px;
+    text-align: center;
+    position: relative;
+   
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px; 
+    
+    
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: orange;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+.navbar ul li a:hover{
+    background: orange;
+    border-radius: 2px;
+}
+.icon-bar {
+    width: 25%; 
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar a {
+    float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+  }
+  
+  .active {
+    background-color: #04AA6D; /* Add an active/current color */
+  }
+  
+.content{
+    width: 80%;
+    position: absolute;
+    top: 30%;
+    text-align: left;
+    color: black;
+    padding: auto;
+    font-size: large;
+}
+.content h1{
+    line-height: 55px;
+    text-align: left;
+}
+
+.parent{
+    position: relative
+    top 0;
+    left: 0;
+}
+.image1{
+     margin-left: auto;
+     margin-right: auto;
+     height: 500px;
+     width: 500px;
+     top: 200px;
+     right: 5px;
+     left: 255px;
+     bottom: 4px;
+     margin-top: auto;
+     position: absolute;
+}
+.image2{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 100px;
+    top: 500px;
+    right: 5px;
+    left: 55px;
+    bottom: 4px;
+    margin-top: auto;
+    position: absolute;
+}
+.content h3{
+    font-size: x-large;
+}
+
+
+.content h2{
+    width: auto;
+    position: relative;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 300px;
+    height: 50px;
+    margin-top: 10px;
+    text-align: left;
+    text-decoration: double;
+    color: rgb(255, 119, 0);
+}
+.content p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: black;
+    text-align: left;
+    position: relative;
+}
+
+.button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: thistle;
+    display: inline-block;
+    font-size: 32px;
+    margin: 8px 4px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    
+}
+.span{
+    background: black;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.button:hover span{
+    width: 100%;
+    background-color: rgb(210, 21, 21);
+    color: rgb(230, 226, 224);
+
+}
+button:hover{
+    border: none;
+    background-color: rgb(213, 208, 208);
+    color: rgb(207, 78, 14);
+
+}
